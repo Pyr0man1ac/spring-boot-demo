@@ -1,0 +1,38 @@
+server:
+  port: 80
+spring:
+  application:
+    name: spring-boot-demo
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info, beans, env, mappings
+customize:
+  id: 21
+  code: CODE
+  enable: true
+  string-list: 1, 2, 3
+  another-string-list[0]: 5
+  another-string-list[1]: 6
+  another-string-list[2]: 7
+  boolean-map:
+    key0: true
+    key1: false
+    key2: on
+    key3: off
+  string-map:
+    key0: true
+    key1: false
+    key2: on
+    key3: off
+    key4: 1
+    key5: 2
+    key6: 01
+    key7: 02
+    key8: value1
+    key9: value2
+  credential:
+    username: admin
+    password: 123456
+  credential-with-converter: another-admin, 123321
