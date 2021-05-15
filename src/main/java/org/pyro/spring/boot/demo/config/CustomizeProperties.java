@@ -16,7 +16,7 @@ import java.util.Map;
 @Data
 @Configuration
 @ConfigurationProperties("customize")
-public class TestProperties {
+public class CustomizeProperties {
     
     private Long id;
     

@@ -1,6 +1,6 @@
 package org.pyro.spring.boot.demo.controller;
 
-import org.pyro.spring.boot.demo.service.TestService;
+import org.pyro.spring.boot.demo.service.CustomizeService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -14,15 +14,15 @@ import java.util.Date;
  * @date 2021/4/19 20:03
  */
 @RestController
-@RequestMapping("test")
-public class TestController {
+@RequestMapping("customize")
+public class CustomizeController {
     
     @Resource
-    private TestService testService;
+    private CustomizeService customizeService;
     
     @GetMapping
     public String test() {
-        testService.test();
+        customizeService.test();
         return new Date().toString();
     }
     
