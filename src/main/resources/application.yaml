@@ -12,6 +12,10 @@ customize:
   id: 21
   code: CODE
   enable: true
+  credential:
+    username: admin
+    password: 123456
+  credential-with-converter: another-admin, 123321
   string-list: 1, 2, 3
   another-string-list[0]: 5
   another-string-list[1]: 6
@@ -67,7 +71,3 @@ customize:
     key3:
       k2: v2
       k3: v3
-  credential:
-    username: admin
-    password: 123456
-  credential-with-converter: another-admin, 123321

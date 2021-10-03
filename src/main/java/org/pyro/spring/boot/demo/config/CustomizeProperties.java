@@ -24,6 +24,10 @@ public class CustomizeProperties {
     
     private Boolean enable;
     
+    private Credential credential;
+    
+    private Credential credentialWithConverter;
+    
     private List<String> stringList;
     
     private List<String> anotherStringList;
@@ -41,9 +45,5 @@ public class CustomizeProperties {
     private Map<String, String> stringMap;
     
     private Map<String, Map<String, Object>> mapMap;
-    
-    private Credential credential;
-    
-    private Credential credentialWithConverter;
     
 }
