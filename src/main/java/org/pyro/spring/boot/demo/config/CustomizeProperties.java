@@ -40,6 +40,8 @@ public class CustomizeProperties {
     
     private Map<String, String> stringMap;
     
+    private Map<String, Map<String, Object>> mapMap;
+    
     private Credential credential;
     
     private Credential credentialWithConverter;

@@ -57,6 +57,16 @@ customize:
     key7: 02
     key8: value1
     key9: value2
+  map-map:
+    key0:
+      k1: v1
+      k2: v2
+    key1:
+      k1: v1
+      k2: v2
+    key3:
+      k2: v2
+      k3: v3
   credential:
     username: admin
     password: 123456
