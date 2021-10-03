@@ -30,6 +30,10 @@ public class CustomizeProperties {
     
     private List<String> simpleStringList;
     
+    private List<Map<String, Object>> simpleMapList;
+    
+    private List<Credential> simpleObjectList;
+    
     private Map<String, Boolean> booleanMap;
     
     private Map<String, String> stringMap;
