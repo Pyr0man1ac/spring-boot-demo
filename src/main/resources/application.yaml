@@ -81,3 +81,7 @@ customize:
     key2:
       username: userInMap03
       password: passInMap03
+  credential-with-converter-map:
+    key0: userInMap07, passInMap07
+    key1: userInMap08, passInMap08
+    key2: userInMap09, passInMap09
