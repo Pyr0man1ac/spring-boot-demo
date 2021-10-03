@@ -28,6 +28,8 @@ public class CustomizeProperties {
     
     private List<String> anotherStringList;
     
+    private List<String> simpleStringList;
+    
     private Map<String, Boolean> booleanMap;
     
     private Map<String, String> stringMap;

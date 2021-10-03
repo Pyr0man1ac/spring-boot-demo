@@ -16,6 +16,10 @@ customize:
   another-string-list[0]: 5
   another-string-list[1]: 6
   another-string-list[2]: 7
+  simple-string-list:
+    - 7
+    - 8
+    - 9
   boolean-map:
     key0: true
     key1: false
