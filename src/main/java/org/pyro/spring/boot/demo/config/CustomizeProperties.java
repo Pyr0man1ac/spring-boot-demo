@@ -34,6 +34,8 @@ public class CustomizeProperties {
     
     private List<Credential> simpleObjectList;
     
+    private List<Credential> simpleObjectConverterList;
+    
     private Map<String, Boolean> booleanMap;
     
     private Map<String, String> stringMap;

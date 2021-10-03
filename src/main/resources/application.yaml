@@ -37,6 +37,10 @@ customize:
       password: passInList02
     - username: userInList03
       password: passInList03
+  simple-object-converter-list:
+    - userInList07, passInList07
+    - userInList08, passInList08
+    - userInList09, passInList09
   boolean-map:
     key0: true
     key1: false
