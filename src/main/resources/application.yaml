@@ -71,3 +71,13 @@ customize:
     key3:
       k2: v2
       k3: v3
+  credential-map:
+    key0:
+      username: userInMap01
+      password: passInMap01
+    key1:
+      username: userInMap02
+      password: passInMap02
+    key2:
+      username: userInMap03
+      password: passInMap03

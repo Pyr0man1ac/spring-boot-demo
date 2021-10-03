@@ -46,4 +46,6 @@ public class CustomizeProperties {
     
     private Map<String, Map<String, Object>> mapMap;
     
+    private Map<String, Credential> credentialMap;
+    
 }
