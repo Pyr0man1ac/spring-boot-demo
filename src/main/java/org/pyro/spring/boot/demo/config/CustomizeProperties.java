@@ -32,9 +32,9 @@ public class CustomizeProperties {
     
     private List<Map<String, Object>> simpleMapList;
     
-    private List<Credential> simpleObjectList;
+    private List<Credential> simpleCredentialList;
     
-    private List<Credential> simpleObjectConverterList;
+    private List<Credential> simpleCredentialWithConverterList;
     
     private Map<String, Boolean> booleanMap;
     

@@ -30,14 +30,14 @@ customize:
     - k7: v7
       k8: v8
       k9: v9
-  simple-object-list:
+  simple-credential-list:
     - username: userInList01
       password: passInList01
     - username: userInList02
       password: passInList02
     - username: userInList03
       password: passInList03
-  simple-object-converter-list:
+  simple-credential-with-converter-list:
     - userInList07, passInList07
     - userInList08, passInList08
     - userInList09, passInList09
